@@ -75,5 +75,3 @@ int main()
     
     cout<<prim(n)<<endl;    
 }
-
-
