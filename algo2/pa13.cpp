@@ -72,6 +72,5 @@ int main()
         weight[n2][n1]=w;
     }
 
-    
     cout<<prim(n)<<endl;    
 }
