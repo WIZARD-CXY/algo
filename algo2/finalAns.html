@@ -1,0 +1,1271 @@
+
+<!DOCTYPE html><html xmlns:fb="http://ogp.me/ns/fb#" itemtype="http://schema.org"><head><title>Exam Feedback | Coursera</title>    <link href='https://dw0ugk4msqulk.cloudfront.net/f310c112bae429ab97a82234159003a31e360bf0/css/spark.main.css' rel='stylesheet' type='text/css' >
+      <link href='https://www.coursera.org/maestro/api/course/974415/course.css' rel='stylesheet' type='text/css' >
+    <link href='https://spark-public.s3.amazonaws.com/algo2/static/images/favicon.ico' rel='icon' >
+</head><body>
+
+<h2 class="course-page-header">
+  <span>
+Feedback &mdash; Final Exam  </span>
+  
+  <a class="coursera-reporter-link" title="Click here if you're experiencing technical problems or found errors in the course materials." target="_blank" href="https://accounts.coursera.org/i/zendesk/courserahelp?return_to=https://learner.coursera.help/hc/articles/201523125-Quizzes">
+     Help Center
+  </a>
+</h2>
+
+
+<a data-coursera-admin-helpwidget-link rel="help" href="https://class.coursera.org/mooc/help/quiz" title="Quiz documentation" style="display:none;">Learn more</a>
+
+
+
+
+
+
+
+<p class="course-quiz-feedback"> You submitted this exam on <strong>Fri  8 May 2015 11:58 PM PDT</strong>. You got a score of <strong>40.00</strong> out of <strong>40.00</strong>. </p>
+
+
+            <form method="post" id="quiz_form" accept-charset="UTF-8">
+    
+    
+    
+    <div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 1</h3>
+<div dir="auto" class="course-quiz-question-text">Consider a connected undirected graph with distinct edge costs.  Which of the following are true?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[afbb14e584473fce6ed408be0639f1b7][]" id="gensym_554db03980302" value="840b5cd069c2e0d0e5fc9d42b5356766" checked disabled>Suppose the edge $$e$$ is the cheapest edge that crosses the cut $$(A,B)$$.  Then $$e$$ belongs to every minimum spanning tree.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>This is the Cut Property, from the lectures.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[afbb14e584473fce6ed408be0639f1b7][]" id="gensym_554db03980cd6" value="cf6fa51555b71e6cd636a3470b45176d" checked disabled>Suppose the edge $$e$$ is the most expensive edge contained in the cycle $$C$$.  Then $$e$$ does not belong to any minimum spanning tree.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>We discussed this property in Problem Set #2.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[afbb14e584473fce6ed408be0639f1b7][]" id="gensym_554db0398182c" value="2686b5db4eeab869e7a7edaf89b8b040" checked disabled>The minimum spanning tree is unique.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>We proved this in the video lectures (see the correctness of Prim's algorithm).</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[afbb14e584473fce6ed408be0639f1b7][]" id="gensym_554db0398255f" value="fc7d28e5ba9da4ab378c4b16658144a8" disabled>Suppose the edge $$e$$ is not the cheapest edge that crosses the cut $$(A,B)$$.  Then $$e$$ does not belong to any minimum spanning tree.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>The two-edge path graph provides a counterexample.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 2</h3>
+<div dir="auto" class="course-quiz-question-text">You are given a connected undirected graph $$G$$ with distinct edge costs, in adjacency list representation.  You are also given the edges of a minimum spanning tree $$T$$ of $$G$$.  This question asks how quickly you can recompute the MST if we change the cost of a single edge.  Which of the following are true?  [RECALL: It is not known how to deterministically compute an MST from scratch in $$O(m)$$ time, where $$m$$ is the number of edges of $$G$$.] [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[11c0c2d36dcf8de615ed6b521d860c4d][]" id="gensym_554db039858ee" value="fcfc85c387b461b1fd4935b960414e63" checked disabled>Suppose $$e \notin T$$ and we increase the cost of $$e$$.  Then, the new MST can be recomputed in $$O(m)$$ deterministic time.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>The MST does not change (by the Cycle Property of the previous problem), so no re-computation is needed.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[11c0c2d36dcf8de615ed6b521d860c4d][]" id="gensym_554db039862d7" value="58ebc3cb98858dd96fd0882758a88e5e" checked disabled>Suppose $$e \in T$$ and we increase the cost of $$e$$.  Then, the new MST can be recomputed in $$O(m)$$ deterministic time.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Let $$A,B$$ be the two connected components of $$T-\{e\}$$.  Edge $$e$$ no longer belongs to the new MST if and only if it is no longer the cheapest edge crossing the cut $$(A,B)$$ (this can be checked in $$O(m)$$ time).  If $$f$$ is the new cheapest edge crossing $$(A,B)$$, then the new MST is $$T - \{e\} \cup \{f\}$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[11c0c2d36dcf8de615ed6b521d860c4d][]" id="gensym_554db03986c6d" value="6716423d2f79715cab1ba085e9e7e76e" checked disabled>Suppose $$e \in T$$ and we decrease the cost of $$e$$.  Then, the new MST can be recomputed in $$O(m)$$ deterministic time.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>The MST does not change (by the Cut Property), so no re-computation is needed.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[11c0c2d36dcf8de615ed6b521d860c4d][]" id="gensym_554db03987577" value="0ff4187c757731f2d68eb074ca2adfff" checked disabled>Suppose $$e \notin T$$ and we decrease the cost of $$e$$.  Then, the new MST can be recomputed in $$O(m)$$ deterministic time.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Let $$C$$ be the cycle of $$T \cup \{e\}$$.  Edge $$e$$ belongs to the new MST if and only if it is no longer the most expensive edge of $$C$$ (this can be checked in $$O(n)$$ time).  If $$f$$ is the new most expensive edge of $$C$$, then the new MST is $$T \cup \{e\} - \{f\}$$.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 3</h3>
+<div dir="auto" class="course-quiz-question-text">Which of the following problems reduce, in a straightforward way, to the minimum spanning tree problem?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[c2deae6dfa5f3e65c9b41b7c0bcd36c9][]" id="gensym_554db0398a12d" value="59111a9021cc86874ca874381cdfc50e" checked disabled>The maximum-cost spanning tree problem.
+ That is, among all spanning trees of a connected graph with edge costs, compute one with the maximum-possible sum of edge costs.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Just negate all edge costs and run an MST algorithm.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[c2deae6dfa5f3e65c9b41b7c0bcd36c9][]" id="gensym_554db0398aa96" value="6b2600628a334bb8b74f5207bf6ec2b3" checked disabled>The minimum bottleneck spanning tree problem.  That is, among all spanning trees of a connected graph with edge costs, compute one with the minimum-possible maximum edge cost.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>As discussed in the problem sets, every MST is also a minimum bottleneck spanning tree.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[c2deae6dfa5f3e65c9b41b7c0bcd36c9][]" id="gensym_554db0398b5a0" value="342664e13dbc3001e2f7205556571435" disabled>The single-source shortest-path problem.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>There is no obvious way of using a minimum spanning tree subroutine to solve the single-source shortest-path problem.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[c2deae6dfa5f3e65c9b41b7c0bcd36c9][]" id="gensym_554db0398c112" value="4e7c5cbd0e9a580da8435d3292c78d76" checked disabled>Given a connected undirected graph $$G=(V,E)$$ with positive edge costs, compute a minimum-cost set $$F \subseteq E$$ such that the graph $$(V,E-F)$$ is acyclic.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>The optimal such set is the complement of a maximum-cost spanning tree.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 4</h3>
+<div dir="auto" class="course-quiz-question-text">Which of the following graph algorithms can be implemented, using suitable data structures, in $$O(m \log n)$$ time?  (As usual, $$m$$ and $$n$$ denote the number of edges and vertices, respectively.)  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[e315a100a170eb77e2e6da0d0c45e35a][]" id="gensym_554db0398fcf3" value="2e182a076811488d64b204900bb4480f" checked disabled>Prim's minimum spanning tree algorithm.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>As covered in lecture, using the heap data structure.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[e315a100a170eb77e2e6da0d0c45e35a][]" id="gensym_554db03990638" value="57645457d294621b2a79b9bd0033a7e2" disabled>The Bellman-Ford shortest-path algorithm.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Our running time was only $$O(mn)$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[e315a100a170eb77e2e6da0d0c45e35a][]" id="gensym_554db03990e55" value="936efaf16f9caf9d6098a072ada8106d" disabled>Johnson's all-pairs shortest-path algorithm.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Our running time was only $$O(mn \log n)$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[e315a100a170eb77e2e6da0d0c45e35a][]" id="gensym_554db0399162e" value="1690a8b656fb6334acc432508a0cf8ad" checked disabled>Kruskal's minimum spanning tree algorithm.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>As covered in lecture, using the union-find data structure.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 5</h3>
+<div dir="auto" class="course-quiz-question-text">Recall the greedy clustering algorithm from lecture and the max-spacing objective function.  Which of the following are true?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[f84ab2ae85a081881afd81db25a53588][]" id="gensym_554db03993e5b" value="ca4f90fe447092090f45aed5125f4bdb" disabled>Suppose the greedy algorithm produces a $$k$$-clustering with spacing $$S$$.  Then, if $$x,y$$ are two points in a common cluster of this $$k$$-clustering, the distance between $$x$$ and $$y$$ is at most $$S$$.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>It can be more, as we discussed in the proof of correctness of the greedy clustering algorithm.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[f84ab2ae85a081881afd81db25a53588][]" id="gensym_554db039946db" value="6dd510a6addd2a1f1fd62f479fa9e5d0" disabled>This greedy clustering algorithm can be viewed as Prim's minimum spanning tree algorithm, stopped early.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>No, it can be viewed as <em>Kruskal's</em> minimum spanning tree algorithm, stopped early.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[f84ab2ae85a081881afd81db25a53588][]" id="gensym_554db03994f6e" value="a1ca46c62e9bfc86963558c89bdd3a17" checked disabled>If the greedy algorithm produces a $$k$$-clustering with spacing $$S$$, then every other $$k$$-clustering has spacing at most $$S$$.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>This is precisely the correctness theorem we discussed for the greedy clustering algorithm.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[f84ab2ae85a081881afd81db25a53588][]" id="gensym_554db03995910" value="b976abb9afaaf0a72c5bc109d5fa1d5b" checked disabled>If the greedy algorithm produces a $$k$$-clustering with spacing $$S$$, then the distance between every pair of points chosen by the greedy algorithm (one pair per iteration) is at most $$S$$.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>This was a lemma we used in the proof of correctness for the greedy clustering algorithm.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 6</h3>
+<div dir="auto" class="course-quiz-question-text">We are given as input a set of $$n$$ jobs, where job $$j$$ has a processing time $$p_j$$ and a deadline $$d_j$$.  Recall the definition of <i>completion times $$C_j$$</i> from the video lectures.  Given a schedule (i.e., an ordering of the jobs), we define the <i>lateness</i> $$l_j$$ of job $$j$$ as the amount of time $$C_j-d_j$$ after its deadline that the job completes, or as 0 if $$C_j \le d_j$$.
+Our goal is to minimize the total lateness,
+$$\sum_{j} l_j$$.
+Which of the following greedy rules produces an ordering that minimizes the total lateness?
+You can assume that all processing times and deadlines are distinct.
+<p>
+WARNING: This is similar to but <em>not</em> identical to a problem from Problem Set #1 (the objective function is different).</p>
+</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[bf62cf88cc6ec962a26dd037f5e61c5e][]" id="gensym_554db03998463" value="8b321da7f19a77979644210809ceb686" disabled>Schedule the requests in increasing order of deadline $$d_j$$</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[bf62cf88cc6ec962a26dd037f5e61c5e][]" id="gensym_554db03998b26" value="0ff5119e57c53a33982c5a82325207d0" disabled>Schedule the requests in increasing order of processing time $$p_j$$</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[bf62cf88cc6ec962a26dd037f5e61c5e][]" id="gensym_554db039990a2" value="791f98a3469c4ffe6847919b7e873066" checked disabled>None of the other options are correct</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>2.00</td>
+<td>That's right, none of the proposed greedy algorithms are correct in general.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[bf62cf88cc6ec962a26dd037f5e61c5e][]" id="gensym_554db03999ab5" value="7d8c9d98f37544300c0515de6d394776" disabled>Schedule the requests in increasing order of the product $$d_j \cdot p_j$$</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 7</h3>
+<div dir="auto" class="course-quiz-question-text">Consider an alphabet with five letters, $$\{a,b,c,d,e\}$$, and suppose we know the frequencies $$f_a=0.28$$, $$f_b=0.27$$, $$f_c=0.2$$, $$f_d=0.15$$, and $$f_e=0.1$$. What is the expected number of bits used by Huffman's coding scheme to encode a 1000-letter document?</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[8335e0d4c07d718ee69cfbbb653abb25][]" id="gensym_554db0399c6ac" value="6083d38e802ae10b83001f597eea797a" disabled>2520</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[8335e0d4c07d718ee69cfbbb653abb25][]" id="gensym_554db0399cd2e" value="92d7edc35210cb64415429799f456e18" disabled>2230</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[8335e0d4c07d718ee69cfbbb653abb25][]" id="gensym_554db0399d3cf" value="a2b42bc9611c39bf1d92df44fcd7c3f0" checked disabled>2250</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>2.00</td>
+<td>For example, $$a=00$$, $$b = 01$$, $$c = 10$$, $$d = 110$$, $$e = 111$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[8335e0d4c07d718ee69cfbbb653abb25][]" id="gensym_554db0399de76" value="70bb7a8c42793b58643c2e504dc82b78" disabled>2450</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 8</h3>
+<div dir="auto" class="course-quiz-question-text">Of the following dynamic programming algorithms covered in lecture, which ones always perform $$O(1)$$ work per subproblem?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[c2f8f3f2b3a3dcf5ce4c5c5311b1eb95][]" id="gensym_554db039a04b1" value="500d454c4b7065cba8cc6d18cf01b632" checked disabled>The dynamic programming algorithm for the sequence alignment problem.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>$$O(1)$$ work for each of the $$\Theta(mn)$$ subproblems.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[c2f8f3f2b3a3dcf5ce4c5c5311b1eb95][]" id="gensym_554db039a0e87" value="a196863a64144124925a5f7dba553e0b" checked disabled>The dynamic programming algorithm for the knapsack problem.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>$$O(1)$$ work for each of the $$\Theta(nW)$$ or $$\Theta(n^2v_{max})$$ subproblems (depending on which Knapsack dynamic programming algorithm you're talking about).</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[c2f8f3f2b3a3dcf5ce4c5c5311b1eb95][]" id="gensym_554db039a193b" value="e99ede87790a2c36e1775dd24a8c5393" disabled>The Bellman-Ford shortest-path algorithm.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>The work per subproblem is proportional to a node's in-degree, which can be as large as $$\Theta(n)$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[c2f8f3f2b3a3dcf5ce4c5c5311b1eb95][]" id="gensym_554db039a2123" value="ff69816bb9bee7059db2cc63f77b3b22" checked disabled>The Floyd-Warshall all-pairs shortest-paths algorithm.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>$$O(1)$$ work for each of the $$\Theta(n^3)$$ subproblems.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[c2f8f3f2b3a3dcf5ce4c5c5311b1eb95][]" id="gensym_554db039a2bab" value="aa9a4c0235a3bcaf2c993c2a77111e27" disabled>The dynamic programming algorithm for the optimal binary search tree problem.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>You have to try all of the candidate roots, which in general takes $$\Theta(n)$$ work.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 9</h3>
+<div dir="auto" class="course-quiz-question-text">Which of the following statements are true about the tractability of the Knapsack problem?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[9d9300107fdf44756503d4c38f9fd3cb][]" id="gensym_554db039a6dfc" value="a52fd87f776c83c111bc6fefb721e210" checked disabled>Assume that $$P \neq NP$$.  The special case of the Knapsack problem in which all item sizes are positive integers less than or equal to $$n^5$$, where $$n$$ is the number of items, can be solved in polynomial time.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Our first dynamic programming algorithm for the Knapsack problem proves this.  (Note one can assume that the capacity $$W$$ is less than the sum of the item sizes, otherwise the instance is trivial.)</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[9d9300107fdf44756503d4c38f9fd3cb][]" id="gensym_554db039a7c0d" value="86ab42d7c8e31de483a6a48976b37837" checked disabled>If there is a polynomial-time algorithm for the Knapsack problem in general, then P=NP.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Yes, the (decision version of) the Knapsack problem is NP-complete.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[9d9300107fdf44756503d4c38f9fd3cb][]" id="gensym_554db039a89bc" value="43bda4b7300e08548a12b6616ebc5c22" checked disabled>Assume that $$P \neq NP$$.  The special case of the Knapsack problem in which all item values are positive integers less than or equal to $$n^5$$, where $$n$$ is the number of items, can be solved in polynomial time.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Our second dynamic programming algorithm for the Knapsack problem proves this.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[9d9300107fdf44756503d4c38f9fd3cb][]" id="gensym_554db039a97bd" value="c4a240517625b74f6878ea6ff1bfe07d" disabled>Assume that $$P \neq NP$$.  The special case of the Knapsack problem in which all item values, item sizes, and the knapsack capacity are positive integers, can be solved in polynomial time.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>No, only when either the item values or the item sizes are polynomially bounded.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 10</h3>
+<div dir="auto" class="course-quiz-question-text">Assume that $$P \neq NP$$.  Which of the following extensions of the Knapsack problem can be solved in time polynomial in $$n$$, the number of items, and $$M$$, the largest number that appears in the input?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[4c78902a6eabf2e1fc35e9cb2db5dd48][]" id="gensym_554db039adb48" value="2b6eb3905b86364162917c9e104e209e" checked disabled>You are given $$n$$ items with positive integer values and sizes, and a positive integer capacity $$W$$, as usual.  You are also given a budget $$k \le n$$ on the number of items that you can use in a feasible solution.  The problem is to compute the max-value set of at most $$k$$ items with total size at most $$W$$.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Add another dimension to the array to keep track of how many items you've used so far, this increases the running time by a factor of at most $$n$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[4c78902a6eabf2e1fc35e9cb2db5dd48][]" id="gensym_554db039ae99d" value="ed8c893942da2cdcbc0c68fe729382c3" checked disabled>You are given $$n$$ items with positive integer values and sizes, and a positive integer capacity $$W$$, as usual.  The problem is to compute the max-value set of  items with total size <em>exactly</em> $$W$$.  If no such set exists, the algorithm should correctly detect that fact.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Requires only minor modifications to the standard Knapsack dynamic programming algorithm.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[4c78902a6eabf2e1fc35e9cb2db5dd48][]" id="gensym_554db039af85b" value="16ebdd59f8f26051f7914723f2ff778d" disabled>You are given $$n$$ items with positive integer values and sizes, as usual, and $$m$$ positive integer capacities, $$W_1, W_2, \ldots, W_m$$ .  These denote the capacities of $$m$$ different Knapsacks, where $$m$$ could be as large as $$\Theta(n)$$.
+The problem is to pack items into these knapsacks to maximize the total value of the packed items.  You are not allowed to split a single item between two of the knapsacks.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Every straightforward dynamic programming approach has running time exponential in $$m$$.  More generally, this problem is NP-hard even if all of the numbers are polynomially bounded (non-trivial exercise: can you prove this?).</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[4c78902a6eabf2e1fc35e9cb2db5dd48][]" id="gensym_554db039b063d" value="c564d66e81d77147dccb17eda4fa22cc" checked disabled>You are given $$n$$ items with positive integer values and sizes, as usual, and <em>two</em> positive integer capacities, $$W_1$$ and $$W_2$$.  The problem is to pack items into these two knapsacks (of capacities $$W_1$$ and $$W_2$$) to maximize the total value of the packed items.  You are not allowed to split a single item between the two knapsacks.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Add another dimension to the array to keep track of the residual capacity of the second knapsack, this increases the running time by a factor of at most $$W$$.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 11</h3>
+<div dir="auto" class="course-quiz-question-text">Assume that $$P \neq NP$$.   The following problems all take as input two strings $$X$$ and $$Y$$, of length $$m$$ and $$n$$, over some alphabet $$\Sigma$$.  Which of them can be solved in $$O(mn)$$ time?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[0bc0ca5db9ff85563d662eb09096bb2d][]" id="gensym_554db039b3626" value="e4991a049f7fe96da32b1de395a8de50" checked disabled>Consider the following variation of sequence alignment.  Instead of a single gap penalty $$\alpha_{gap}$$, you're given two numbers $$a$$ and $$b$$.   The penalty of inserting $$k$$ gaps in a row is now defined as $$ak + b$$, rather than $$k\alpha_{gap}$$.  Other penalties (for matching two non-gaps) are defined as before.
+The goal is to compute the minimum-possible penalty of an alignment under this new cost model. </td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Variation on the original sequence alignment dynamic program.  With each subproblem, you need to keep track of what gaps you insert, since the costs you incur in the current position depend on whether or not the previous subproblems inserted gaps.  Blows up the number of subproblems and running time by a constant factor.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[0bc0ca5db9ff85563d662eb09096bb2d][]" id="gensym_554db039b3e66" value="ee957e898d2679816853ee4066a42777" checked disabled>Compute the length of a longest common subsequence of $$X$$ and $$Y$$.  (Recall a subsequence need not be consecutive. For example, the longest common subsequence of "abcdef" and "afebcd" is "abcd".)</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Similar dynamic programming to sequence alignment, with one subproblem for each $$X_i$$ and $$Y_j$$.  Alternatively, this reduces to sequence alignment by setting the gap penalty to 1 and making the penalty of matching two different characters to be very large.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[0bc0ca5db9ff85563d662eb09096bb2d][]" id="gensym_554db039b46ff" value="6bc13e28bd33651edef4a9ec44e4dc7a" checked disabled>Compute the length of a longest common substring of $$X$$ and $$Y$$.  (A substring is a consecutive subsequence of a string.  So "bcd" is a substring of "abcdef", whereas "bdf" is not.)</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Similar dynamic programming to sequence alignment, with one subproblem for each $$X_i$$ and $$Y_j$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[0bc0ca5db9ff85563d662eb09096bb2d][]" id="gensym_554db039b4ede" value="7b6ca01604953619c99e1adcf264c8eb" checked disabled>Assume that $$X$$ and $$Y$$ have the same length $$n$$.  Does there exist a permutation $$f$$, mapping each $$i \in \{1,2,\ldots,n\}$$ to a distinct $$f(i) \in \{1,2,\ldots,n\}$$, such that $$X_i = Y_{f(i)}$$ for every $$i=1,2,\ldots,n$$? </td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>This problem can be solved in $$O(n)$$ time, without dynamic programming.  Just count the frequency of each symbol in each string.  The permutation $$f$$ exists if and only if every symbol occurs exactly the same number of times in each string.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 12</h3>
+<div dir="auto" class="course-quiz-question-text">Assume that $$P \ne NP$$.  Which of the following problems can be solved in polynomial time?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[196d4fb98a5452ce033de844657d46cd][]" id="gensym_554db039b779e" value="234176dff8d1500ef48695d6a491ac50" checked disabled>Given a directed acyclic graph with real-valued edge lengths, compute the length of a longest path between any pair of vertices.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>By multiplying all edge lengths by -1, the problem reduces to computing the shortest path between any pair of vertices.  Since the graph is acyclic, there are no negative-cost cycles, and this problem can be solved in polynomial time (e.g., via Floyd-Warshall or Johnson).</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[196d4fb98a5452ce033de844657d46cd][]" id="gensym_554db039b80ed" value="ca15132d4bffae773da0d6868e268d94" disabled>Given a directed graph with real-valued edge lengths, compute the length of a longest cycle-free path between any pair of vertices (i.e., $$\max_{u,v \in V} \max_{P \in \mathcal{P}_{uv}} \sum_{e \in P} c_e$$, where $$\mathcal{P}_{uv}$$ denotes the set of cycle-free $$u$$-$$v$$ paths).</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>The NP-complete Hamiltonian Path problem (recall PSet #6) reduces easily to this problem, so it cannot be solved in polynomial time assuming $$P \neq NP$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[196d4fb98a5452ce033de844657d46cd][]" id="gensym_554db039b89dc" value="796eb3b414b1a4ec8489bc7a7dc69c81" disabled>Given a directed graph with nonnegative edge lengths, compute the length of a longest cycle-free path between any pair of vertices (i.e., $$\max_{u,v \in V} \max_{P \in \mathcal{P}_{uv}} \sum_{e \in P} c_e$$, where $$\mathcal{P}_{uv}$$ denotes the set of cycle-free $$u$$-$$v$$ paths).</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>The NP-complete Hamiltonian Path problem (recall PSet #6) reduces easily to this problem, so it cannot be solved in polynomial time assuming $$P \neq NP$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[196d4fb98a5452ce033de844657d46cd][]" id="gensym_554db039b9563" value="06f61a6367b324b1db86aebf6b051fe8" checked disabled>Given a directed graph with nonnegative edge lengths, compute the length of a maximum-length shortest path between any pair of vertices (i.e., $$\max_{u,v \in V} d(u,v)$$, where $$d(u,v)$$ is the shortest-path distance between $$u$$ and $$v$$).</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Since edge lengths are nonnegative, there are no negative cycles.  Thus, this problem reduces to all-pairs shortest paths.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 13</h3>
+<div dir="auto" class="course-quiz-question-text">Recall the all-pairs shortest-paths problem.  Which of the following algorithms are guaranteed to be correct on instances with negative edge lengths that don't have any negative-cost cycles?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[3919124c163bf371ee8aa2002281f2d7][]" id="gensym_554db039bc0dd" value="f54aa9ae08e5643c6061a7e13e914534" checked disabled>The Floyd-Warshall algorithm.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>As discussed in lecture.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[3919124c163bf371ee8aa2002281f2d7][]" id="gensym_554db039bc9b5" value="4e4a57527565679d10d62530137ce14f" checked disabled>Johnson's reweighting algorithm.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>As discussed in lecture.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[3919124c163bf371ee8aa2002281f2d7][]" id="gensym_554db039bd333" value="313e74e6a6d89f3561de9c48febce03b" disabled>Run Dijkstra's algorithm $$n$$ times, once for each choice of a source vertex.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>As discussed in lecture, Dijkstra's algorithm need not be correct when there are negative edge lengths, even when there is no negative-cost cycle.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[3919124c163bf371ee8aa2002281f2d7][]" id="gensym_554db039bdd62" value="da94a397e97bb30887b9d7c84d187ec5" checked disabled>Run the Bellman-Ford algorithm $$n$$ times, once for each choice of a source vertex.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>As discussed in lecture.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 14</h3>
+<div dir="auto" class="course-quiz-question-text">Consider an instance of the optimal binary search tree problem with 7 keys (say 1,2,3,4,5,6,7 in sorted order) and frequencies $$w_1 = .2, w_2 = .05, w_3 = .17, w_4 = .1, w_5 = .2, w_6 = .03, w_7 = .25$$.  What is the minimum-possible average search time of a binary search tree with these keys?</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[18288f2047b53b68484d6e1c3bd168f6][]" id="gensym_554db039c0583" value="77461fba7d113e12ddaa8713e769a038" disabled>2.33</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[18288f2047b53b68484d6e1c3bd168f6][]" id="gensym_554db039c0b17" value="5863dd38ed4990e49e088c27dfa679ce" checked disabled>2.23</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>2.00</td>
+<td>The root is 5, with children 3 and 7, and grandchildren 1, 4, 6, and NULL respectively (2 is a child of 1).</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[18288f2047b53b68484d6e1c3bd168f6][]" id="gensym_554db039c134e" value="61c921f52256c053483add09a5616ad3" disabled>2.29</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="radio" name="answer[18288f2047b53b68484d6e1c3bd168f6][]" id="gensym_554db039c1868" value="b8f8936cacd234b8c76731d8b3df2228" disabled>2.18</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 15</h3>
+<div dir="auto" class="course-quiz-question-text">Suppose a computational problem $$\Pi$$ that you care about is NP-complete.  Which of the following are true?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[22cc88d71fa4dd3d31114f18e8eb77e2][]" id="gensym_554db039c3bc5" value="0bbee130891c002348e8139831e9718e" checked disabled>You should not try to design an algorithm that is guaranteed to solve $$\Pi$$ correctly and in polynomial time for every possible instance (unless you're explicitly trying to prove that $$P=NP$$).</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>And, moreover, I don't recommend spending too much time trying to prove that $$P=NP$$!</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[22cc88d71fa4dd3d31114f18e8eb77e2][]" id="gensym_554db039c440e" value="b0727c8cbd8807eb6e2dcc08e464b76c" checked disabled>If your boss criticizes you for failing to find a polynomial-time algorithm for $$\Pi$$, you can legitimately claim that thousands of other scientists (including Turing Award winners, etc.) have likewise tried and failed to solve $$\Pi$$.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Remember, in trying to solve one NP-complete problem, you're trying to solve them all.  Countless brilliant minds have tried to devise polynomial-time algorithms for NP-complete problems (and thus, indirectly, for your own NP-complete problem $$\Pi$$); none have yet succeeded.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[22cc88d71fa4dd3d31114f18e8eb77e2][]" id="gensym_554db039c4c48" value="9e51e1936e66af750d87d6c7ab131299" disabled>NP-completeness is a "death sentence"; you should not even try to solve the instances of $$\Pi$$ that are relevant for your application.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Not true; perhaps the instances of $$\Pi$$ arising in your domain are special enough to be solved efficiently (in theory and/or in practice).</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[22cc88d71fa4dd3d31114f18e8eb77e2][]" id="gensym_554db039c542c" value="d0108f4a8991ed02f0fd837647c96e22" disabled>Since the dynamic programming algorithm design paradigm is only useful for designing exact algorithms, there's no point in trying to apply it to the problem $$\Pi$$.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Not true; dynamic programming can potentially be used to design faster (but still exponential-time) exact algorithms (as with TSP), to design heuristics with provable performance guarantees (as with Knapsack), and to design exact algorithms for special caes (as with Knapsack).</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 16</h3>
+<div dir="auto" class="course-quiz-question-text">Which of the following statements are logically consistent with our current state of knowledge (i.e., with the mathematical statements that have been formally proved)?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[1bfb571e899252b1862989986840a2f8][]" id="gensym_554db039c7b8a" value="033eee55e6fe9aeb84ae37607097652a" checked disabled>There is an NP-complete problem that is polynomial-time solvable.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Given what has been proved up to this point in time, P=NP remains a logical possibility.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[1bfb571e899252b1862989986840a2f8][]" id="gensym_554db039c8417" value="c985f88626465047cd96f500301d37ad" disabled>Some NP-complete problems are polynomial-time solvable, and some NP-complete problems are not polynomial-time solvable.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>A polynomial-time algorithm for a single NP-complete automatically yields polynomial-time algorithms for all NP-complete algorithms (i.e., implies that P=NP).</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[1bfb571e899252b1862989986840a2f8][]" id="gensym_554db039c8c32" value="ed47ce1d42cd7b0bf63d7adf4633dfe9" checked disabled>There is an NP-complete problem that can be solved in $$O(n^{\log n})$$ time, where $$n$$ is the size of the input.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Given what has been proved up to this point in time, the running time required to solve NP-complete problems could be anywhere between polynomial and exponential (note that $$n^{\log n}$$ is more than polynomial but less than exponential).</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[1bfb571e899252b1862989986840a2f8][]" id="gensym_554db039c943d" value="4f1beac7e8e0f5ee93c0454cf7d5a03b" checked disabled>There is no NP-complete problem that can be solved in $$O(n^{\log n})$$ time, where $$n$$ is the size of the input.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Given what has been proved up to this point in time, the running time required to solve NP-complete problems could be anywhere between polynomial and exponential (note that $$n^{\log n}$$ is more than polynomial but less than exponential).</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 17</h3>
+<div dir="auto" class="course-quiz-question-text">Of the following problems, which can be solved in polynomial time by directly applying algorithmic ideas that were discussed in lecture and/or the homeworks? [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[08a7d5e7525dab249e8fd5027944e0ec][]" id="gensym_554db039cbbc4" value="ae41b85d3589e4bf23e6d41690ee323f" disabled>Given an undirected graph $$G$$ and a value for $$k$$ such that $$k = \Theta(\log n)$$, where $$n$$ is the number of vertices of $$G$$, does $$G$$ have an independent set of size at least $$k$$?</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>There is a reduction between the vertex cover and independent set problems where you take the complement of one to get the other (see PSet #5).  Unfortunately, this transforms vertex covers of size $$k$$ to independent sets of size $$n-k$$ and thus is not useful here.  Also, it is not clear how to adapt the Vertex Cover algorithm from lecture to the Independent Set problem.  In fact, it is conjectured that this problem cannot be solved in polynomial time at all.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[08a7d5e7525dab249e8fd5027944e0ec][]" id="gensym_554db039cc419" value="7feca6cf6cb6e0ed2b3f4feea4b857ef" checked disabled>Given an undirected graph $$G$$ and a value for $$k$$ such that $$k = \Theta(\log n)$$, where $$n$$ is the number of vertices of $$G$$, does $$G$$ have a vertex cover of size at most $$k$$?</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>The Vertex Cover algorithm covered in lecture has running time $$O(2^k m)$$ and hence runs in polynomial time in this case.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[08a7d5e7525dab249e8fd5027944e0ec][]" id="gensym_554db039ccc73" value="a022fae620b9daa2bc91aed32adc5b94" checked disabled>Given an undirected graph $$G$$ and a constant value for $$k$$ (i.e., $$k = O(1)$$, independent of the size of $$G$$), does $$G$$ have an independent set of size at least $$k$$?</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Brute-force search (checking each subset of $$k$$ vertices) runs in time $$O(n^k)$$, which is polynomial when $$k = O(1)$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[08a7d5e7525dab249e8fd5027944e0ec][]" id="gensym_554db039cd480" value="483f2a73f52663aa416f2f81d6639b72" checked disabled>Given an undirected graph $$G$$ and a constant value for $$k$$ (i.e., $$k = O(1)$$, independent of the size of $$G$$), does $$G$$ have a vertex cover of size at most $$k$$?</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Brute-force search (checking each subset of $$k$$ vertices) runs in time $$O(n^k)$$, which is polynomial when $$k = O(1)$$.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 18</h3>
+<div dir="auto" class="course-quiz-question-text">In lecture we gave a dynamic programming algorithm for the traveling salesman problem.  Does this algorithm imply that P=NP?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[5e4efd28263a167a95f194c56690e33d][]" id="gensym_554db039cfc7c" value="cfcfb00a63428535579f2c0580244ea6" disabled>Yes, it does.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>If it did, we'd collectively be a million bucks richer!</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[5e4efd28263a167a95f194c56690e33d][]" id="gensym_554db039d0456" value="aa6b5a25c0c5e336f26d7a4543dd9586" disabled>No.  Since we sometimes perform a super-polynomial amount of work computing the solution of a single subprolem, the algorithm does not run in polynomial time.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>We only do $$O(n)$$ work computing the answer to a single subproblem; the issue is that there are exponentially many such subproblems.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[5e4efd28263a167a95f194c56690e33d][]" id="gensym_554db039d0c56" value="ca75329cae99ed8777497a881192f492" disabled>No.  Since we perform a super-polynomial amount of work extracting the final TSP solution from the solutions of all of the subproblems, the algorithm does not run in polynomial time.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>We only do $$O(n)$$ work computing the final answer, given the solutions of all of the (exponentially many) subproblems.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[5e4efd28263a167a95f194c56690e33d][]" id="gensym_554db039d13f4" value="eec3b30d0bde74732cda5e3823a34e22" checked disabled>No.  Since there are an exponential number of subproblems in our dynamic programming formulation, the algorithm does not run in polynomial time.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>Precisely.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[5e4efd28263a167a95f194c56690e33d][]" id="gensym_554db039d1c2a" value="5cd820b076f5079ff0d7712f11e202d8" disabled>No.  A polynomial-time algorithm for the traveling salesman problem does not necessarily imply that P=NP.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>Since (the decision version of) the traveling salesman problem is NP-complete, a polynomial-time algorithm for TSP would indeed imply that P=NP.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 19</h3>
+<div dir="auto" class="course-quiz-question-text">Consider the Knapsack problem and the following greedy algorithm: (1) sort the items in nonincreasing order of value over size (i.e., the ratio $$v_i/w_i$$); (2) return the maximal prefix of items that fits in the Knapsack (i.e., the $$k$$ items with the largest ratios, where $$k$$ is as large as possible subject to the sum of the item sizes being at most the knapsack capacity $$W$$).  Which of the following are true?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fcc40da9bcf536ff133c689b26f0d67f][]" id="gensym_554db039d476b" value="f912d5a4f24fc8c0487914f722724cab" disabled>If all items have the same value/size ratio, then this algorithm always outputs an optimal solution (no matter how ties are broken).</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>Suppose $$W = 4$$, $$v_1=w_1=3$$, $$v_2=w_2=v_3=w_3=2$$.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fcc40da9bcf536ff133c689b26f0d67f][]" id="gensym_554db039d4fc7" value="a00f6bf370d2238ac7a9a46a69dab944" checked disabled>If all items have the same value, then this algorithm always outputs an optimal solution (no matter how ties are broken).</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>Easy exchange argument.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fcc40da9bcf536ff133c689b26f0d67f][]" id="gensym_554db039d581c" value="a6599a793dcf46aff8e2fee7022c3876" checked disabled>If the size of every item is at most 20% of the Knapsack capacity (i.e., $$w_i \le W/5$$ for every $$i$$), then this algorithm is guaranteed to output a feasible solution with total value at least 80% times that of an optimal solution.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>As discussed in lecture, this is true even without the "Step 3" optimization that compares the greedy solution to the max-value item.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fcc40da9bcf536ff133c689b26f0d67f][]" id="gensym_554db039d6217" value="c0db4f5600a4776ae62bba1ac087b7c5" disabled>This algorithm always outputs a feasible solution with total value at least 50% times that of an optimal solution.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>This is only true if you add a third step, which takes the better of this solution and the max-value item (as discussed in lecture).</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fcc40da9bcf536ff133c689b26f0d67f][]" id="gensym_554db039d6a1a" value="856390d12074ae54acf513883fc4bd76" checked disabled>If all items have the same size, then this algorithm always outputs an optimal solution (no matter how ties are broken).</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.40</td>
+<td>Easy exchange argument (all relevant feasible solutions pack the same number of items).</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div><div class="course-quiz-question-body">
+<h3 class="course-quiz-question-number">Question 20</h3>
+<div dir="auto" class="course-quiz-question-text">Which of the following statements are true about the generic local search algorithm?  [Check all that apply.]</div>
+<div dir="auto" class="course-quiz-options"></div>
+<table class="table">
+<tr>
+<th>Your Answer</th>
+<th></th>
+<th>Score</th>
+<th>Explanation</th>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fe4bd9db70d4437f88c5159606b4fc0f][]" id="gensym_554db039d9321" value="e7de76ea4e1d1a279ea791e99a0ed513" checked disabled>The output of the generic local search algorithm generally depends on the choice of the superior neighboring solution to move to next (in an iteration where there are multiple such solutions).</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Yes, different choices for which neighboring solution to move to can lead to different locally optimal solutions.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fe4bd9db70d4437f88c5159606b4fc0f][]" id="gensym_554db039d9b97" value="7b6ad2d10999544bd411a312e70ad0b4" disabled>The generic local search algorithm is guaranteed to eventually converge to an optimal solution.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>No, only a <em>locally</em> optimal solution.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fe4bd9db70d4437f88c5159606b4fc0f][]" id="gensym_554db039da3fe" value="645a1e1ee4d9c0fddf2fdfa1d3641fcc" disabled>The generic local search algorithm is guaranteed to terminate in a polynomial number of iterations.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>No, in general it can require an exponential number of iterations.</td>
+</tr>
+<tr data-randomizable-option="data-randomizable-option">
+<td class="course-quiz-student-answer" dir="auto">
+<input dir="auto" class="course-quiz-input" type="checkbox" name="answer[fe4bd9db70d4437f88c5159606b4fc0f][]" id="gensym_554db039dafb4" value="9ef4e22bff747a896b0c4eaf6b0a768d" checked disabled>The output of the generic local search algorithm generally depends on the choice of the starting point.</td>
+<td><span class="course-quiz-answer-correct" title="Correct" alt="Correct"><span class="icon-ok" alt="Correct"><span class="accessible-text-for-reader">Correct</span></span></span></td>
+<td>0.50</td>
+<td>Yes, different initial choices can lead to different locally optimal solutions.</td>
+</tr>
+<tr>
+<td>Total</td>
+<td></td>
+<td>2.00 / 2.00</td>
+<td></td>
+</tr>
+</table>
+</div>
+    
+        
+
+
+    </form>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  
+  styleSheets: [],
+  styles: {},
+
+  jax: ["input/TeX"],
+  
+  extensions: ["tex2jax.js"],
+
+  preJax: null,
+  postJax: null,
+
+  preRemoveClass: "MathJax_Preview",
+
+  showProcessingMessages: true,
+
+  messageStyle: "none",
+  
+  displayAlign: "center",
+  displayIndent: "0em",
+  
+  delayStartupUntil: "none",
+
+  skipStartupTypeset: false,
+  
+  elements: [],
+  
+  tex2jax: {
+	    inlineMath: [
+	                 ['$$','$$'],      // uncomment this for standard TeX math delimiters
+	                 ['\\(','\\)']
+	                 ],
+
+	                 displayMath: [
+	                 ['\\[','\\]']
+	                 ],
+
+    skipTags: ["script","noscript","style","textarea","pre","code"],
+    ignoreClass: "tex2jax_ignore",
+    processClass: "tex2jax_process",
+    processEscapes: false,
+    processEnvironments: true,
+    preview: "TeX"
+    
+  },
+  
+  mml2jax: {
+    preview: "alttext"
+    
+  },
+  
+  jsMath2jax: {
+    preview: "TeX"
+    
+  },
+
+  TeX: {
+    TagSide: "right",
+    TagIndent: ".8em",
+    MultLineWidth: "85%",
+    Macros: {},
+
+    extensions: ["AMSmath.js", "AMSsymbols.js"]
+    
+  },
+
+  //============================================================================
+  //
+  //  These parameters control the MathML inupt jax.
+  //
+  MathML: {
+    //
+    //  This specifies whether to use TeX spacing or MathML spacing when the
+    //  HTML-CSS output jax is used.
+    //
+    useMathMLspacing: false
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the HTML-CSS output jax.
+  //
+  "HTML-CSS": {
+    
+    scale: 100,
+    
+    availableFonts: ["STIX","TeX"],
+    
+    preferredFont: "TeX",
+    
+    webFont: "TeX",
+    
+    imageFont: "TeX",
+    
+    undefinedFamily: "STIXGeneral,'Arial Unicode MS',serif",
+      
+    showMathMenu: true,
+
+    styles: {},
+    
+    tooltip: {
+      delayPost: 600,          // milliseconds delay before tooltip is posted after mouseover
+      delayClear: 600,         // milliseconds delay before tooltip is cleared after mouseout
+      offsetX: 10, offsetY: 5  // pixels to offset tooltip from mouse position
+    }
+  },
+  
+  //============================================================================
+  //
+  //  These parameters control the NativeMML output jax.
+  //
+  NativeMML: {
+
+    scale: 100,
+
+    showMathMenu: true,
+    showMathMenuMSIE: true,
+
+    styles: {}
+  },
+  
+  MathMenu: {
+    delay: 400,
+    
+    helpURL: "http://www.mathjax.org/help/user/",
+
+    showRenderer: true,
+    showFontMenu: false,
+    showContext:  false,
+
+    windowSettings: {
+      status: "no", toolbar: "no", locationbar: "no", menubar: "no",
+      directories: "no", personalbar: "no", resizable: "yes", scrollbars: "yes",
+      width: 100, height: 50
+    },
+    
+    styles: {}
+    
+  },
+
+  MMLorHTML: {
+    prefer: {
+      MSIE:    "MML",
+      Firefox: "HTML",
+      Opera:   "HTML",
+      other:   "HTML"
+    }
+  }
+});
+</script>
+<script type="text/javascript">
+(function () {
+
+  function loadMathJax() {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://duqnjvq4jwr55.cloudfront.net/2.1/MathJax.js";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  }
+
+  window.loadOrRefreshMathJax = function(domId) {
+    if (window.MathJax) {
+      if (domId) {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub, domId]);
+      } else {
+        MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+      }
+    } else {
+      loadMathJax();
+    }
+  }
+})();
+</script></div><!-- - track IE8 and less browser for eventing purposes--><!--[if lte IE 8]><script>window._204 = window._204 || [];
+window._gaq = window._gaq || [];
+window._gaq.push(
+    ['_setAccount', 'UA-28377374-1'],
+    ['_setDomainName', window.location.hostname],
+    ['_setAllowLinker', true],
+    ['_trackPageview', window.location.pathname]);
+window._204.push(
+  ['client', 'home'],
+  {key:"pageview", value:window.location.pathname});</script><script src="https://dw0ugk4msqulk.cloudfront.net/f310c112bae429ab97a82234159003a31e360bf0/js/lib/204.js"></script><script src="https://ssl.google-analytics.com/ga.js"></script><![endif]--><div id="fb-root"></div><div id="origami" data-js="origami"><div style="position:absolute;top:0px;left:0px;width:100%;height:100%;background:#f5f5f5;padding-top:5%;"><div id="coursera-loading-nojs" style="text-align:center; margin-bottom:10px;display:none;"><div>Please use a <a href="https://learner.coursera.help/hc/articles/201522945-Recommended-Software-and-Devices">modern browser </a> with JavaScript enabled to use Coursera.</div><div id="get-browser-zh" style="display:none;">请下载现代的浏览器（<a href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie">IE11</a>或<a href="https://www.google.com/intl/zh-CN/chrome/browser/">Google Chrome</a>）来使用Coursera。</div></div><div><span id="coursera-loading-js" style="display: none; padding-left:45%; font-size: 14px; line-height: 1.428571429; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif">loading &nbsp;&nbsp;<img src="https://dw0ugk4msqulk.cloudfront.net/images/icons/loading.gif"></span></div><noscript><div style="text-align:center; margin-bottom:10px;">Please use a <a href="https://learner.coursera.help/hc/articles/201522945-Recommended-Software-and-Devices">modern browser </a> with JavaScript enabled to use Coursera.</div></noscript></div></div><!--[if gte IE 9]><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><![endif]-->
+<!--[if lte IE 8]><script>document.getElementById("coursera-loading-nojs").style.display = 'block';</script><![endif]-->
+<!--[if !IE]> --><script>document.getElementById("coursera-loading-js").style.display = 'block';</script><!-- <![endif]--><script>if (/zh/i.test(window.localStorage ? localStorage.getItem('locale') : '') || '{{ locale }}') {
+  document.getElementById('get-browser-zh').style.display = 'block';
+}</script><!--[if !IE]> --><script>document.getElementById('coursera-loading-js').style.display = 'block';</script><!-- <![endif]-->
+    <script src='https://dw0ugk4msqulk.cloudfront.net/f310c112bae429ab97a82234159003a31e360bf0/js/vendor/jquery.v1-7.js' ></script>
+      <script src='https://dw0ugk4msqulk.cloudfront.net/f310c112bae429ab97a82234159003a31e360bf0/spark/core/js/loadOrRefreshMathJax.js' ></script>
+  <script src="https://dw0ugk4msqulk.cloudfront.net/f310c112bae429ab97a82234159003a31e360bf0/js/vendor/require.v2-1-1.js"></script><script data-baseurl="https://dw0ugk4msqulk.cloudfront.net/f310c112bae429ab97a82234159003a31e360bf0/" data-version="f310c112bae429ab97a82234159003a31e360bf0" data-timestamp='1431113226575' data-debug='0' data-locale="en_US" id="_require">if(document.getElementById('coursera-loading-js').style.display == 'block') {
+  (function(el) {
+     require.config({
+       //enforceDefine: true,
+       waitSeconds: 75,
+       baseUrl: el.getAttribute('data-baseurl'),
+       urlArgs: el.getAttribute('data-debug') == '1' ? 'v=' + el.getAttribute('data-timestamp') : '',
+       shim: {
+          'underscore': {
+             exports: '_'
+          },
+          'backbone': {
+             deps: ['underscore', 'jquery'],
+             exports: 'Backbone',
+             init: function(_, $) {
+               Backbone.$ = $;
+               return Backbone;
+             }
+          },
+          'pages/hg/thirdparty/js/backbone.marionette': {
+            deps: ['backbone']
+          },
+          'pages/hg/thirdparty/js/webshims/polyfiller': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/webshims/extras/mousepress': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/webshims/polyfiller']
+          },
+          'pages/hg/thirdparty/js/jquery.throttle': {
+            deps: ['jquery']
+          },
+          'js/lib/jquery.linkify': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/js/bootstrap/alert': {
+            deps: ['jquery', 'pages/hg/thirdparty/js/bootstrap/transition']
+          },
+          'spark/core/js/jquery_ui': {
+            deps: ['jquery']
+          },
+          'spark/core/js/jquery.history': {
+            deps: ['jquery']
+          },
+          'js/lib/bootstrap.tooltip': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/transition': {
+            deps: ['jquery']
+          },
+          'pages/hg/thirdparty/js/bootstrap/tab': {
+            deps: ['jquery']
+          },
+          'bundles/videojs/lib/video.4.3.0': {
+            exports: 'vjs'
+          }
+       },
+       paths: {
+          'q': 'js/vendor/q.v1-0-1',
+          'react-with-addons': 'js/vendor/react-with-addons.v0-12',
+          'jquery':                         'pages/spark/jquery',
+          'underscore':                     'js/vendor/underscore.v1-5-2',
+          'backbone':                       'js/vendor/backbone.v1-1-0',
+          'backbone.relational':            'js/lib/backbone.relational.0.8.6',
+          'i18n':                           'js/lib/i18n._t',
+          'css':                            'js/vendor/require.css.v0-1-2',
+          'memoize':                        'js/lib/require.memoize.v0-0-1',
+          'pages/spark/models/user.json':   'empty:',
+          'pages/spark/models/course.json': 'empty:',
+          'pages/spark/models/navbar.json': 'empty:'
+       },
+       callback: function() {
+                    require(['pages/spark/routes']);
+                },
+       config: {
+         i18n: {
+           locale: (window.localStorage ? localStorage.getItem('locale') : '') || el.getAttribute('data-locale')
+         }
+       }
+     });
+  })(document.getElementById('_require'));
+}
+</script><script>define('pages/spark/models/user.json', [], function(){
+      return JSON.parse("{\"id\":2981462,\"email_address\":\"wizard_cxy@hotmail.com\",\"full_name\":\"WizardCXY\",\"locale\":\"en_US\",\"timezone\":\"America\\\/Los_Angeles\",\"access_group_id\":\"4\",\"registration_time\":\"1424936372\",\"last_access_time\":\"1431141199\",\"last_access_ip\":\"205.147.105.74\",\"signature_track_register_time\":\"0\",\"email_announcement\":\"1\",\"email_forum\":\"1\",\"in_signature_track\":\"0\",\"wishes_proctored_exam\":\"0\",\"first_name\":\"WizardCXY\",\"permissions\":[\"default\",\"allow_site_access\"],\"group\":\"Student\",\"anonymous\":false,\"forum_title\":\"Student\",\"signature_track_state\":1,\"verified_quizzes\":[],\"submitted_quizzes\":[\"5\",\"7\",\"11\",\"13\",\"17\",\"29\",\"37\",\"47\",\"51\",\"63\",\"73\",\"75\",\"77\",\"79\",\"83\",\"85\",\"87\",\"89\",\"91\",\"93\",\"95\",\"97\",\"99\",\"103\",\"109\",\"113\",\"119\",\"121\",\"123\",\"125\",\"127\",\"129\",\"133\",\"157\",\"187\",\"197\",\"205\",\"209\",\"211\",\"221\",\"235\"],\"scheduled_proctored_exam\":null,\"last_chance_modal\":null,\"flexjoin_last_chance_modal\":null}");
+  });
+define('pages/spark/models/course.json', [], function(){
+      return JSON.parse("{\"id\":974415,\"isPrivate\":false,\"type\":\"public\",\"name\":\"Algorithms: Design and Analysis, Part 2\",\"instructor\":\"Tim Roughgarden\",\"sessionName\":\"algo2-004\",\"externalBaseURL\":\"https:\\\/\\\/www.coursera.org\\\/\",\"shortname\":\"algo2\",\"host\":\"https:\\\/\\\/www.coursera.org\\\/\",\"assetUnversionedLink\":\"https:\\\/\\\/dw0ugk4msqulk.cloudfront.net\\\/\",\"cheggID\":\"\",\"hasLTI\":true,\"badgevilleDomain\":\"\",\"linkable\":false,\"universityShortname\":\"stanford\",\"signatureTrackStatus\":{\"signature_track_enabled\":0},\"courseURLs\":{\"log_in_link\":\"https:\\\/\\\/www.coursera.org\\\/login?post_redirect=https%3A%2F%2Fwww.coursera.org%2Flogin%3Fuser_action%3Dclass%26course_id%3D974415%26post_redirect%3Dhttps%253A%252F%252Fclass.coursera.org%252Falgo2-004%252Fauth%252Fauth_redirector%253Ftype%253Dlogin%2526subtype%253Dnormal%2526visiting%253D\",\"sign_up_link\":\"https:\\\/\\\/www.coursera.org\\\/signup?enroll_cid=974415&enroll_sn=algo2&enroll_n=Algorithms: Design and Analysis, Part 2\",\"view_course_info_link\":\"https:\\\/\\\/www.coursera.org\\\/course\\\/algo2\",\"sign_up_link_cant_enroll\":\"https:\\\/\\\/www.coursera.org\\\/signup?post_redirect=https%3A%2F%2Fwww.coursera.org%2Fcourse%2Falgo2\"},\"courseBase\":\"https:\\\/\\\/class.coursera.org\\\/algo2-004\\\/\",\"search\":true,\"hideWiki\":true,\"aceStartRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceEndRegistrationDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamStartDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamEndDate\":\"Wed 31 Dec 1969  4:00 PM PST\",\"aceExamRules\":\"\",\"aceExamDuration\":\"\",\"aceBeforeExam\":false,\"aceAfterExam\":true,\"aceHours\":null,\"aceCreditType\":\"\",\"acePrice\":null,\"aceExamID\":null,\"aceEligible\":false,\"canRegisterForACE\":false,\"specialization\":null,\"supportForums\":true,\"textbooks\":\"\",\"inVideoQuizV2\":false,\"in_flexjoin\":0,\"honorCodeExtraText\":\"\",\"honorCodeCustomTitle\":\"\",\"honorCodeCustomButton\":\"\",\"studentAccessDisabled\":0,\"disableQQs\":false}");
+  });
+  define('pages/spark/models/navbar.json', [], function(){
+      return JSON.parse("{\"items\":[{\"name\":\"Home\",\"icon\":\"home\",\"link_type\":\"circuit\",\"link_data\":\"class:index\"},{\"name\":\"Syllabus\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"syllabus\"},{\"name\":\"Course Logistics + Assessment\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"logistics\"},{\"name\":\"Video Lectures\",\"icon\":\"lecture\",\"link_type\":\"circuit\",\"link_data\":\"lecture:index\"},{\"name\":\"Tips\",\"icon\":\"\",\"link_type\":\"wiki\",\"link_data\":\"tips\"},{\"name\":\"Assignments\",\"icon\":\"quiz\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index\"},{\"name\":\"Theory (Optional) Problems\",\"icon\":\"wiki\",\"link_type\":\"wiki\",\"link_data\":\"theoryproblems\"},{\"name\":\"Discussion Forums\",\"icon\":\"forum\",\"link_type\":\"circuit\",\"link_data\":\"forum:index\"},{\"name\":\"Final Exam\",\"icon\":\"\",\"link_type\":\"circuit\",\"link_data\":\"quiz:index?quiz_type=exam\"}]}");
+  });
+</script><script>var coursera_enable_new_help_center = true;
+</script></body></html>
